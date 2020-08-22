@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  pintos:
+    stdin_open: true
+    tty: true
+    build:
+      context: .
+    volumes:
+      - .:/pintos
+    ports:
+      - "1234:1234"

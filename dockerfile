@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+LABEL maintainer="jshan2017@kaist.ac.kr"
 
 # Install required packages
 

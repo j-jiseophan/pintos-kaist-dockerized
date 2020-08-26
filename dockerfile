@@ -19,8 +19,7 @@ RUN apt-get install -y \
   python3.8
 
 RUN apt-get install -y \
-  qemu \
-  qemu-system
+  qemu-system-x86
 
 RUN update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.8 60

@@ -1,4 +1,4 @@
-Dockerized version of pintos KAIST.
+Dockerized version of pintos KAIST(ver. spring-2020).
 Focus on writing codes instead setup!
 
 ## Requirements
